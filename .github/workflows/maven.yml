@@ -19,3 +19,4 @@ jobs:
           distribution: 'temurin'
           cache: maven
       - run: mvn -v
+      - run: mvn clean package
